@@ -1,2 +1,3 @@
 com\tests\TestSearchProduct.class
 com\pages\LandingPage.class
+com\tests\Setup.class

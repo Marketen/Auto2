@@ -2,13 +2,14 @@ package com.tests;
 
 
 import java.util.concurrent.TimeUnit;
+import com.tests.Setup;
 
 //import org.openqa.selenium.By;
 //import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import com.pages.LandingPage;
 
@@ -18,24 +19,24 @@ import com.pages.LandingPage;
  */
 public class TestSearchProduct {
 
-	
-	private WebDriver setup() {
-		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Marc\\Documents\\SeleniumShit\\chromedriver.exe");
-		 WebDriver driver = new ChromeDriver();
-		 driver.manage().window().maximize();
-	     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	     return driver;
+	@BeforeSuite
+	private WebDriver setUp() {
+		WebDriver driver = Setup.iniSetupChrome();
+		return driver;
 	}
 	
+	@Parameters({"driver"})
+	@BeforeTest
+	private void profileSetup(WebDriver driver) {
+		driver.manage().window().maximize();
+	}
 	
     @Test
-	public void SearchProduct() {
+	public void searchProduct() {
 		try {
 			 System.out.println("Test Case One with Thread Id:- "
 					+ Thread.currentThread().getId());
-			
-			 WebDriver driver = setup();
-			 
+			 			 
 		     driver.get("https://www.amazon.es/ref=nav_logo");
 		     LandingPage landing = new LandingPage(driver);
 	         
@@ -53,13 +54,12 @@ public class TestSearchProduct {
 	}
 	
 	@Test
-	public void TestTitle() {
+	public void testTitle() {
 		
 		 System.out.println("Test Case One with Thread Id:- "
 				+ Thread.currentThread().getId());
 		 
-		 WebDriver driver = setup();
-	     driver.get("https://www.amazon.es/ref=nav_logo");
+		 driver.get("https://www.amazon.es/ref=nav_logo");
 	     LandingPage landing = new LandingPage(driver);
 	     
 	     String expectedTitle = "Amazon";
@@ -69,6 +69,11 @@ public class TestSearchProduct {
 	     } catch (Exception e){
 	    	 System.out.println("error");
 	     }
-	     driver.close();
+	}
+	
+	@AfterSuite
+	private void closing(WebDriver driver) {
+		System.out.println("Tests ejecutados, cerrando drivers");
+		Setup.closeSetupChrome(driver);
 	}
 }

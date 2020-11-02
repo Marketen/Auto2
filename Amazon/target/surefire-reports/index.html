@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Amazon" class="navigator-link">
-              <span class="suite-name border-failed">Amazon</span>
+              <span class="suite-name border-passed">Amazon</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,35 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Amazon" class="hide-methods failed suite-Amazon"> (hide)</a> <!-- hide-methods failed suite-Amazon -->
-                      <a href="#" panel-name="suite-Amazon" class="show-methods failed suite-Amazon"> (show)</a> <!-- show-methods failed suite-Amazon -->
-                    </span>
-                    <div class="method-list-content failed suite-Amazon">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Amazon" title="com.tests.TestSearchProduct" class="method navigator-link" hash-for-method="TestTitle">TestTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Amazon -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Amazon" class="hide-methods passed suite-Amazon"> (hide)</a> <!-- hide-methods passed suite-Amazon -->
-                      <a href="#" panel-name="suite-Amazon" class="show-methods passed suite-Amazon"> (show)</a> <!-- show-methods passed suite-Amazon -->
-                    </span>
-                    <div class="method-list-content passed suite-Amazon">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Amazon" title="com.tests.TestSearchProduct" class="method navigator-link" hash-for-method="SearchProduct">SearchProduct</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Amazon -->
+                    <span class="method-stats">0 methods,   </span>
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -131,59 +103,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Amazon" class="panel Amazon">
-          <div class="suite-Amazon-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.tests.TestSearchProduct</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TestTitle">
-                  </a> <!-- TestTitle -->
-                  <span class="method-name">TestTitle</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.111)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MARC-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;11.0.6&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Marc\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52994}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1051bbb34c1b53c8c6c41d5575559210
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
-	at com.pages.LandingPage.getTitle(LandingPage.java:41)
-	at com.tests.TestSearchProduct.TestTitle(TestSearchProduct.java:66)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 14 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Amazon-class-failed -->
-          <div class="suite-Amazon-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.tests.TestSearchProduct</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="SearchProduct">
-                  </a> <!-- SearchProduct -->
-                  <span class="method-name">SearchProduct</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Amazon-class-passed -->
         </div> <!-- panel Amazon -->
         <div panel-name="test-xml-Amazon" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -241,20 +160,11 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
-data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SearchProduct')
-data.setCell(0, 2, 'com.tests.TestSearchProduct')
-data.setCell(0, 3, 10688);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TestTitle')
-data.setCell(1, 2, 'com.tests.TestSearchProduct')
-data.setCell(1, 3, 8265);
+data.addRows(0);
 window.suiteTableData['Amazon']= { tableData: data, tableDiv: 'times-div-Amazon'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Amazon">
               </div> <!-- times-div-Amazon -->
             </div> <!-- times-div -->
@@ -269,9 +179,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Amazon" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tests.TestSearchProduct</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testTitle</span>
+                <br/>
+                <span class="ignored-method-name">searchProduct</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Amazon" class="panel">
@@ -281,16 +200,10 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.tests.TestSearchProduct</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">SearchProduct</span>
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">TestTitle</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
+              </div> <!-- configuration-suite before -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
