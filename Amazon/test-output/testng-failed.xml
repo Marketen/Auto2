@@ -7,9 +7,9 @@
         <methods>
           <include name="setUp"/>
           <include name="profileSetup"/>
+          <include name="afterMethod"/>
+          <include name="quit"/>
           <include name="testTitle"/>
-          <include name="closing"/>
-          <include name="searchProduct"/>
         </methods>
       </class> <!-- com.tests.TestSearchProduct -->
     </classes>

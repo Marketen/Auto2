@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15.67" tests="2" errors="0" skipped="1" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="27.295" tests="0" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.6\bin"/>
-    <property name="sun.java.command" value="C:\Users\Marc\AppData\Local\Temp\surefire13088967992961993609\surefirebooter11099868754638193170.jar C:\Users\Marc\AppData\Local\Temp\surefire13088967992961993609 2020-11-02T20-40-24_127-jvmRun1 surefire17823625922053069263tmp surefire_05845307082929040961tmp"/>
+    <property name="sun.java.command" value="C:\Users\Marc\AppData\Local\Temp\surefire10984831681071425959\surefirebooter9948886273871995133.jar C:\Users\Marc\AppData\Local\Temp\surefire10984831681071425959 2020-11-05T12-00-49_615-jvmRun1 surefire2674661000549759448tmp surefire_02968645989542244712tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Marc\Eclipse_Projects\Amazon\target\test-classes;C:\Users\Marc\Eclipse_Projects\Amazon\target\classes;C:\Users\Marc\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Marc\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Marc\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Marc\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Marc\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Marc\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Marc\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Marc\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Marc\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Marc\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Marc\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Marc\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Marc\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Marc\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Marc\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Marc\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Marc\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Marc\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Marc\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Marc\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Marc\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Marc\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Marc\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Marc\AppData\Local\Temp\surefire13088967992961993609\surefirebooter11099868754638193170.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Marc\AppData\Local\Temp\surefire10984831681071425959\surefirebooter9948886273871995133.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.6+8-LTS"/>
@@ -54,30 +54,11 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.6\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Microchip\xc8\v1.45\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.6\;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\apache-maven-3.6.3\bin;C:\Users\Marc\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Marc\AppData\Local\Programs\Python\Python38-32\;C:\Users\Marc\.windows-build-tools\python27\;C:\Users\Marc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Marc\AppData\Roaming\npm;;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.6\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;%SystemRoot%\system32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Microchip\xc8\v1.45\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.6\;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\apache-maven-3.6.3\bin;C:\Users\Marc\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Marc\AppData\Local\Programs\Python\Python38-32\;C:\Users\Marc\.windows-build-tools\python27\;C:\Users\Marc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Marc\AppData\Roaming\npm;;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.6+8-LTS"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="profileSetup" classname="com.tests.TestSearchProduct" time="14.098">
-    <failure message="&#10;Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated profileSetup.&#10;For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
-
-Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated profileSetup.
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
-]]></failure>
-    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 31891
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-nov. 02, 2020 8:40:38 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="closing" classname="com.tests.TestSearchProduct" time="0">
-    <skipped/>
-  </testcase>
 </testsuite>

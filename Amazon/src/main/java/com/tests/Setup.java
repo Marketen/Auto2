@@ -3,7 +3,6 @@
  */
 package com.tests;
 
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,12 +13,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
  */
 public class Setup {
 	
-	
-	 public static WebDriver iniSetupChrome() {
+	 public static WebDriver iniSetupChrome(WebDriver driver) {
 		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Marc\\Documents\\SeleniumShit\\chromedriver.exe");
-		 WebDriver driver = new ChromeDriver();
-		 //driver.manage().window().maximize();
-	     //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		 driver = new ChromeDriver();
+		 driver.manage().window().maximize();
 	     return driver;
 	}
 	 
@@ -27,12 +24,15 @@ public class Setup {
 		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Marc\\Documents\\SeleniumShit\\chromedriver.exe");
 		 WebDriver driver = new ChromeDriver();
 		 driver.manage().window().maximize();
-	     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	     return driver;
 	}
 	 
 	 public static void closeSetupChrome(WebDriver driver) {
 		 driver.close();
+	 }
+	 
+	 public static void quitDriver (WebDriver driver) {
+		 driver.quit();
 	 }
 	 
 	 public static void closeSetupFirefox(WebDriver driver) {
